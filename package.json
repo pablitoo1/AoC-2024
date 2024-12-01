@@ -4,15 +4,15 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/day1.js",
-    "day1": "npx ts-node src/day1/day1.ts",
-    "day2": "npx ts-node src/day2/day2.ts"
+    "start": "node dist/day01.js",
+    "day": "node src/utils/run-day.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
   }
 }
