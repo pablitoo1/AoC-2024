@@ -1,0 +1,18 @@
+{
+  "name": "aoc-2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/day1.js",
+    "day1": "npx ts-node src/day1/day1.ts",
+    "day2": "npx ts-node src/day2/day2.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
