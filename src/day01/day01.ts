@@ -26,7 +26,7 @@ for (let i = 0; i < n; i++) {
   const diff = Math.abs(a[i] - b[i]);
   part1Result += diff;
 }
-console.log(`Part 1 Wynik: ${part1Result}`);
+console.log(`Part 1: ${part1Result}`);
 
 // Part 2
 const bCounter: Record<number, number> = {};
@@ -40,4 +40,4 @@ for (let i = 0; i < n; i++) {
   const contribution = a[i] * count;
   part2Result += contribution;
 }
-console.log(`Part 2 Wynik: ${part2Result}`);
+console.log(`Part 2: ${part2Result}`);

@@ -40,7 +40,7 @@ for (const line of lines) {
     part1Result++;
   }
 }
-console.log(`Part 1 Wynik: ${part1Result}`);
+console.log(`Part 1: ${part1Result}`);
 
 // Part 2
 let part2Result = 0;
@@ -50,4 +50,4 @@ for (const line of lines) {
     part2Result++;
   }
 }
-console.log(`Part 2 Wynik: ${part2Result}`);
+console.log(`Part 2: ${part2Result}`);
