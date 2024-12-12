@@ -216,12 +216,7 @@ function findRegions(gardenMap: string[][]): [number, number][][] {
       visitedCells.add(cellKey);
       currentRegion.push([row, col]);
 
-      for (const [deltaRow, deltaCol] of [
-        [-1, 0],
-        [1, 0],
-        [0, -1],
-        [0, 1],
-      ]) {
+      for (const [deltaRow, deltaCol] of DIRECTIONS) {
         const neighborRow = row + deltaRow;
         const neighborCol = col + deltaCol;
         const neighborKey = `${neighborRow},${neighborCol}`;
